@@ -1,0 +1,40 @@
+independent and dependent x-path
+# Xpath by contains for dependent and independent element
+ for fixed element-//td[text()='Buddhist train']
+ //td[text()='Buddhist train']/..//td[@data-title='helpline']-xpath for dynamic element
+//td[text()='Buddhist train']/..//td[@data-title='mail']
+//td[text()="Maharajas' Express"]--Note-if text is already in single quote then we have to use double quote
+
+# Assignment 1
+fixed element-(1)-//td[text()='Air Ticketing']
+dynanic element-(2)-//td[text()='Air Ticketing']/..//td[@data-title='mail']
+dynanic element-(3)-//td[text()='Air Ticketing']/..//td[@data-title='helpline']
+
+# Assignment 2
+fixed element-(1)-//td[text()='Tourism']
+dynanic element-(2)-//td[text()='Tourism']/..//td[@data-title='mail']
+dynanic element-(3)-//td[text()='Tourism']/..//td[@data-title='helpline']
+
+# Assignment 3
+fixed element-(1)-
+//div[text()='realme narzo 30 5G (Racing Silver,128 GB)']/..//div[@class='-30jeq3_1_WHN1']
+//div[text()='SAMSUNG GALAXY F23 5G(Copper Blush,128 GB)']/..//div[@class='_30jeq3-1_WHN1']
+(//div[text()='SAMSUNG Galaxy F23 5G (Forest Green, 128 GB)'])[2]
+
+# REALME9 ASSIGNMENT QUESTION
+  (//li[text()='6 GB RAM | 128 GB ROM | Expandable Upto 256 GB'])[1]-for ramp
+
+  (//li[text()='6 GB RAM | 128 GB ROM | Expandable Upto 256 GB'])[1]/../../..//div[text()='realme 9 (Stargaze White, 128 GB)'-For ramp and name
+  (//span[text()='Add to Compare'])[1] for add to compare
+  (//span[text()='Add to Compare'])[1]/../../../../..//div[text()='realme 9 (Stargaze White, 128 GB)'] for add to campare and name
+  (//span[text()='Add to Compare'])[1]/../../../../..//div[text()='realme 9 (Stargaze White, 128 GB)']/../..//div[@class='_30jeq3 _1_WHN1']-FOR Add to compare,nameand price
+
+# independent and dependent x path for SAMSUNG GALAXY J6 PLUS
+
+(//span[text()='Add to Compare'])[1]/../../../../..//div[text()='SAMSUNG Galaxy J6 (Blue, 64 GB)']/../..//div[@class='_30jeq3 _1_WHN1']
+
+# independent and dependent x path for REDMI NOTE 7 PRO 
+(//span[text()='Add to Compare'])[1]/../../../../..//div[text()='Redmi Note 7 Pro (Blue, 64 GB)']/../..//div[@class='_30jeq3 _1_WHN1'
+
+#  independent and dependent x path for APPLE iPhone 14 Pro Max 
+(//span[text()='Add to Compare'])[1]/../../../../..//div[text()='APPLE iPhone 14 Pro Max (Silver, 1 TB)']/../..//div[@class='_30jeq3 _1_WHN1']
